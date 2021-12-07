@@ -8,8 +8,6 @@ from mysql.connector.constants import ClientFlag
 from datetime import datetime
 app = Flask(__name__)
 
-#Just to check git
-
 config = {
 		'user': 'root',
 		'password': 'cloudcomputing123',
