@@ -42,19 +42,24 @@ karthik_face_encoding = face_recognition.face_encodings(karthik_image)[0]
 habeeb_image = face_recognition.load_image_file("static/training_images/habeeb/habeeb.jpg")
 habeeb_face_encoding = face_recognition.face_encodings(habeeb_image)[0]
 
+mahi_image = face_recognition.load_image_file("static/training_images/mahi/mahi.jpg")
+mahi_face_encoding = face_recognition.face_encodings(mahi_image)[0]
+
 known_face_encodings = [
     aneesh_face_encoding,
     archana_face_encoding,
     rohan_face_encoding,
     karthik_face_encoding,
     habeeb_face_encoding,
+    mahi_face_encoding,
 ]
 known_face_names = [
     "Aneesh",
     "Archana",
     "Rohan",
     "Karthik",
-    "Habeeb Olufowobi"
+    "Habeeb Olufowobi",
+    "Mahi"
 ]
 
 face_locations = []
